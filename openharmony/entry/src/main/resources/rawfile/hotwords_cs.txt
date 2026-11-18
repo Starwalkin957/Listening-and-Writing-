@@ -1,0 +1,298 @@
+人工智能
+机器学习
+深度学习
+神经网络
+卷积神经网络
+循环神经网络
+注意力机制
+大语言模型
+预训练
+微调
+强化学习
+监督学习
+自监督学习
+对比学习
+联邦学习
+迁移学习
+知识蒸馏
+模型量化
+梯度下降
+反向传播
+学习率
+损失函数
+过拟合
+欠拟合
+正则化
+批归一化
+随机梯度下降
+词嵌入
+分词
+上下文窗口
+提示词
+思维链
+智能体
+多模态
+检索增强生成
+向量数据库
+知识图谱
+扩散模型
+生成对抗网络
+ transformer
+ Transformer
+ CUDA
+ GPU
+ TPU
+ NPU
+ API
+ SDK
+ IDE
+ CPU
+ ARM
+ RISC
+ CISC
+ Kubernetes
+ Docker
+ DevOps
+ Linux
+ Python
+ Java
+ Kotlin
+ JavaScript
+ TypeScript
+ Rust
+ Golang
+ Swift
+ ArkTS
+ Android
+ OpenHarmony
+ HarmonyOS
+ PyTorch
+ TensorFlow
+ ONNX
+ Whisper
+ Zipformer
+ Paraformer
+ SenseVoice
+ sherpa-onnx
+ WebAssembly
+ gRPC
+ GraphQL
+ REST
+ HTTP
+ HTTPS
+ TCP
+ UDP
+ WebSocket
+ JSON
+ Protobuf
+ Unicode
+ UTF
+ ASCII
+ epoll
+ Reactor
+ Proactor
+ sidecar
+ CAP
+ BASE
+ Raft
+ Paxos
+ MVCC
+ LSM
+ WAL
+ CAS
+ NUMA
+ OOM
+ cgroup
+ namespace
+ overlayfs
+ QoS
+ SRE
+ SLA
+ SLO
+ SLI
+ RTF
+ ASR
+ TTS
+ VAD
+ NLP
+ LLM
+ RAG
+ MoE
+ LoRA
+ GGUF
+ INT8
+ FP16
+ BF16
+ TOPS
+ FLOPS
+微服务
+容器编排
+持续集成
+持续交付
+负载均衡
+服务网格
+消息队列
+分布式锁
+分布式事务
+一致性哈希
+最终一致性
+强一致性
+两阶段提交
+三阶段提交
+读写分离
+分库分表
+主从复制
+故障转移
+服务发现
+熔断
+降级
+限流
+令牌桶
+漏桶
+幂等
+灰度发布
+蓝绿部署
+金丝雀发布
+回滚
+链路追踪
+可观测性
+混沌工程
+压测
+火焰图
+缓存穿透
+缓存击穿
+缓存雪崩
+慢查询
+执行计划
+覆盖索引
+最左前缀
+死锁
+活锁
+行锁
+表锁
+间隙锁
+乐观锁
+悲观锁
+自旋锁
+读写锁
+信号量
+原子操作
+内存屏障
+内存序
+数据竞争
+竞态条件
+临界区
+上下文切换
+时间片
+协程
+线程池
+连接池
+内存池
+零拷贝
+内存映射
+垃圾回收
+内存泄漏
+虚拟内存
+缺页中断
+页表
+系统调用
+中断
+编译器
+解释器
+字节码
+虚拟机
+词法分析
+语法分析
+抽象语法树
+静态链接
+动态链接
+哈希表
+红黑树
+二叉树
+平衡树
+堆
+栈
+队列
+链表
+跳表
+字典树
+布隆过滤器
+线段树
+并查集
+动态规划
+贪心算法
+回溯
+分治
+递归
+迭代
+时间复杂度
+空间复杂度
+二分查找
+深度优先搜索
+广度优先搜索
+最短路径
+最小生成树
+拓扑排序
+排序算法
+哈希函数
+对称加密
+非对称加密
+数字签名
+公钥
+私钥
+证书
+区块链
+智能合约
+拜占庭容错
+共识算法
+序列化
+反序列化
+正则表达式
+套接字
+多路复用
+事件驱动
+回调
+异步
+同步
+阻塞
+非阻塞
+并发
+并行
+进程
+线程
+优先级反转
+实时调度
+工作集
+局部性原理
+缓存行
+伪共享
+大页
+交换分区
+镜像
+编排
+调度器
+声明式
+调谐
+滚动更新
+健康检查
+存活探针
+就绪探针
+持久卷
+存储类
+有状态服务
+无状态服务
+守护进程集
+定时任务
+命名空间
+资源配额
+网络策略
+自动扩缩容
+节点池
+抢占式实例
+装箱
+超卖
+驱逐
+污点
+容忍
+亲和性
+拓扑分布约束

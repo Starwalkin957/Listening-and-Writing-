@@ -1,0 +1,20 @@
+# 构建产物
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+openharmony/.hvigor/
+openharmony/oh_modules/
+openharmony/entry/oh_modules/
+openharmony/build/
+openharmony/entry/build/
+openharmony/.preview/
+
+# 依赖与大文件
+android/app/libs/*.aar
+models-cache/
+openharmony/entry/src/main/resources/rawfile/sherpa-onnx-*/
+
+# 系统文件
+.DS_Store
+*.tmp

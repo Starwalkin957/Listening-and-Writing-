@@ -1,0 +1,10 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "bilingnotes",
+  "version": "0.1.0",
+  "description": "中英双语离线语音纪要（OpenHarmony 端）",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

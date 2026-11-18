@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "中英双语离线语音纪要主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "双语语音纪要"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "双语语音纪要"
+    },
+    {
+      "name": "mic_reason",
+      "value": "用于实时语音识别与纪要记录"
+    }
+  ]
+}
