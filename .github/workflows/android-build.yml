@@ -32,12 +32,14 @@ jobs:
       - name: Fetch sherpa-onnx AAR
         run: python3 scripts/fetch_android_aar.py
 
-      - name: Build debug APK
+      - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
-          build-root-directory: android
-          arguments: assembleDebug --no-daemon --console=plain
+
+      - name: Build debug APK
+        working-directory: android
+        run: gradle assembleDebug --no-daemon --console=plain
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
