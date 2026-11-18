@@ -33,9 +33,22 @@ def main() -> None:
     ap.add_argument("--proxy", default="", help="下载代理前缀，如 https://ghproxy.net/")
     args = ap.parse_args()
 
-    api_url = API + ("/tags/v" + args.version if args.version else "/latest")
+    api_url = API + ("/tags/v" + args.version if args.version else "?per_page=30")
     print("查询 release: %s" % api_url)
-    rel = json.loads(get(api_url).decode("utf-8"))
+    data = json.loads(get(api_url).decode("utf-8"))
+    if args.version:
+        rel = data
+    else:
+        # /releases/latest 可能指向非版本 tag，取最新的语义化版本 release
+        rel = None
+        for r in data:
+            if re.match(r"^v?\d+\.\d+", r.get("tag_name", "")) and any(
+                re.fullmatch(r"sherpa-onnx-[\d.]+\.aar", a["name"]) for a in r.get("assets", [])
+            ):
+                rel = r
+                break
+        if rel is None:
+            raise SystemExit("未找到带 AAR 资产的版本 release，请用 --version 指定")
     tag = rel.get("tag_name", "?")
 
     asset = None
